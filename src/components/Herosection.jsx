@@ -30,8 +30,8 @@ const Herosection = () => {
       </div>
 
       {/* Responive design code-pending */}
-      <div className="   relative lg:hidden ">
-        <div className="w-full ">
+      <div className=" relative lg:hidden ">
+        <div className="w-full  ">
           <img src={mobilebg} alt="" className="w-full" />
         </div>
 

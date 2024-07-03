@@ -1,5 +1,8 @@
 import Navbar from './components/Navbar'
 import Herosection from './components/Herosection';
+import SecondHeroSection from './components/SecondHeroSection';
+
+import FoodMenuLayout from './layouts/FoodMenuLayout';
 
 
 function App() {
@@ -8,6 +11,8 @@ function App() {
    <div>
     <Navbar/>
     <Herosection/>
+    <SecondHeroSection />
+    <FoodMenuLayout />
    </div>
   )
 }
