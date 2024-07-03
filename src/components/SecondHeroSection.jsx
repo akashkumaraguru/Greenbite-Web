@@ -19,7 +19,7 @@ const SecondHeroSection = () => {
         
       </div>
 
-      <div className=''>
+      <div className='mt-10'>
                 <img src={secondHeroimg} alt="" />
       </div>
     </div>

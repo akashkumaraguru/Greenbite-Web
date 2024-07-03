@@ -9,7 +9,7 @@ const Herosection = () => {
     <div className=" w-5/6 lg:max-w-7xl mx-auto  mt-5">
       <div className="hidden lg:flex  lg:h-[580px] rounded-xl lg:bg-[#FFF9EA] p-10 ">
         <div>
-          <h1 className="lg:text-3xl mt-20 tracking-wider p-10  font-bold ">
+          <h1 className="lg:text-4xl mt-20  p-10  font-bold ">
             Elevate Your Plate with Wholesome, Organic Goodness
             <span className="text-[#7DBE35]"> GreenBite</span> Delivered to Your
             Doorstep!{" "}

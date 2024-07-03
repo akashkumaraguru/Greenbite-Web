@@ -61,7 +61,7 @@ const FoodMenuLayout = () => {
     ];
 
     return (
-        <div className='flex w-5/6 lg:max-w-7xl  mx-auto justify-evenly items-center flex-wrap cursor-pointer  '>
+        <div className='flex w-5/6 lg:max-w-8xl  mx-auto justify-evenly items-center flex-wrap cursor-pointer  '>
             {Foods.map((food, index) => (
                 <div key={index}>
                     <FoodMenu img={food.img} maintext={food.maintext} subtext={food.subtext} amount={food.amount} />
