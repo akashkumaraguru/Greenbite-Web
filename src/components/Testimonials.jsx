@@ -56,13 +56,13 @@ const Testimonials = () => {
         {persons.map((e, index) => (
           <div
             key={index}
-            className="bg-[#73BF78] p-5 mb-20 lg:h-[600px] lg:w-[30vw] mt-10 rounded-2xl"
+            className="bg-[#73BF78] hover:scale-105 duration-300 p-5 mb-20 lg:h-[600px] lg:w-[30vw] mt-10 rounded-2xl"
           >
             <div className="">
               <img
                 src={e.img}
                 alt=""
-                className="w-[200px] mx-auto p-3 bg-white rounded-full"
+                className="w-[200px]  mx-auto p-3 bg-white rounded-full"
               />
             </div>
 

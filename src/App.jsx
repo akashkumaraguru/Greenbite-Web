@@ -5,6 +5,7 @@ import FoodMenuLayout from './layouts/FoodMenuLayout';
 import Testimonials from './components/Testimonials';
 import Post from './components/Post';
 import AboutUs from './components/AboutUs';
+import Delivery from './components/Delivery';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Testimonials />
     <Post />
     <AboutUs />
+    <Delivery/>
    </div>
   )
 }
