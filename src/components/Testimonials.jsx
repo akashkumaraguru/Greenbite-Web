@@ -52,7 +52,7 @@ const Testimonials = () => {
         <h1 className="font-semibold mt-2">What Our Customers Say About Us</h1>
       </div>
 
-      <div className="flex w-5/6 max-w-7xl justify-evenly mx-auto flex-wrap">
+      <div className="flex  justify-evenly  flex-wrap">
         {persons.map((e, index) => (
           <div
             key={index}
