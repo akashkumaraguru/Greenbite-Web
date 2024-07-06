@@ -6,6 +6,7 @@ import Testimonials from './components/Testimonials';
 import Post from './components/Post';
 import AboutUs from './components/AboutUs';
 import Delivery from './components/Delivery';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Post />
     <AboutUs />
     <Delivery/>
+    <Footer/>
    </div>
   )
 }
